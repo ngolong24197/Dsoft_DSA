@@ -1,3 +1,6 @@
+#Description: find the day of the year for the given date
+#Input: A date string
+#Output: interger representing the day of the year
 from CountDay_func import *
 
 def main():
