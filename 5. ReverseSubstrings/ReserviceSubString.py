@@ -11,7 +11,8 @@ def main():
     
     result1 = solution.reverseParentheses(s)
     
-    print(result1)
+    result2 = solution.reverseParenthesis2(s)
+    print(f"{result1} vs {result2}")
     
 if __name__== "__main__":
     main()
