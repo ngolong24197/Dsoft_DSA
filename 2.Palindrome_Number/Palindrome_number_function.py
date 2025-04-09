@@ -1,4 +1,6 @@
 class Solution(object):
+    
+    ##use reverse String method
     def isPalindrome(self, x):
         if (x< 0 or x % 10 == 0 and x != 0):
             return False
@@ -12,8 +14,19 @@ class Solution(object):
       
             
             
-   
-    
+    ## use reverse number with operations
+    def isPalindrome(self,x):
+        if (x< 0 or x % 10 == 0 and x != 0):
+            return False
+        
+        checknum =0
+        
+        while x > 0:
+            checknum = checknum *10 + x % 10
+            x //10
+            
+        return x == checknum 
+            
     
     
         
